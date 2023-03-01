@@ -1,0 +1,42 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+    font-weight: bolder;
+  }
+
+
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Columna izquierda o secundaria */
+
+  .side {
+    flex: 30%;
+    background-color:grey; 
+    padding: 20px; 
+    
+  }
+
+   /* Columna derecha o principal */
+
+  .main {
+    flex: 70%; 
+    background-color: grey; 
+    padding: 20px;
+    
+  }
+
+#titulo {
+  background-color: beige;
+  border: 2px solid black;
+
+}
+
+/* Elemento "i" usado en la seccion de "Experiencias y habilidades" */
+
+i {
+  color: honeydew;
+}
